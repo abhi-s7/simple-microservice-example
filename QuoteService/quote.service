@@ -3,7 +3,7 @@ Description=Quote Service Application
 After=network.target
 
 [Service]
-User=abhishek.dev1697
+User=abhishek_dev1697
 WorkingDirectory=/var/www/simple-microservice-example/QuoteService/
 ExecStart=/bin/bash -c '/var/www/simple-microservice-example/QuoteService/venv/bin/python /var/www/simple-microservice-example/QuoteService/main.py'
 Restart=always
